@@ -10,6 +10,7 @@ body {
     justify-content: center;
 }
 .container {
+    background-color: violet;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +19,7 @@ body {
     width: 60vw;
 }
 .header{
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,20 +28,4 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-}
-.image-container {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-}
-
-.image-container img {
-    background-color: black;
-    width: 20%; 
-    height: auto;
-    left: 80%;
 }
