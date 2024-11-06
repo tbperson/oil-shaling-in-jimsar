@@ -9,11 +9,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.content{
-    width: 100vw;
-    display: flex;
-    height: 100vh;
-}
+
 .container {
     background-color: violet;
     display: flex;
@@ -21,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 80vh;
-    width: auto;
+    width: 100vw;
 }
 .header{
     background-color: aqua;
@@ -30,4 +26,5 @@ body {
     align-items: center;
     position: absolute;
     height: 20vh;
+    width: 100vw;
 }
